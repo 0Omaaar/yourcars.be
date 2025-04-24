@@ -395,38 +395,78 @@
     </div>
 </section>
 
-<section class="pt60 no-bottom">
+<section class="pt60 pb60 bg-dark-blue">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 class="text-uppercase wow fadeInUp"><span class="text-line">Nos</span> <span
-                        class="text-gradient">avantages</span></h2>
+            <div class="col-md-12 text-center mb-5">
+                <h2 class="text-uppercase wow fadeInUp"><span class="text-white">NOS</span> <span class="text-gradient">AVANTAGES</span></h2>
             </div>
-            <div class="spacer-single"></div>
         </div>
 
         <div class="row">
-            <div class="col-lg-4 text-center">
-                <div class="position-relative">
-                    <h3 class="text-uppercase wow fadeInUp">Le Meilleur Prix Garanti</h3>
-                    <p>Achetez au meilleur prix votre voiture neuve ou d'occasion.</p>
+            <div class="col-lg-4 text-center mb-4">
+                <div class="advantage-box position-relative p-4">
+                    <div class="advantage-icon mb-4">
+                        <i class="fa fa-euro text-gold fa-3x"></i>
+                    </div>
+                    <h3 class="text-uppercase text-gold mb-3">Le Meilleur Prix Garanti</h3>
+                    <p class="text-light">Achetez au meilleur prix votre voiture neuve ou d'occasion.</p>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <div class="position-relative">
-                    <h3 class="text-uppercase wow fadeInUp">Où, Quand Et Comme Vous Voulez</h3>
-                    <p>Bien installé dans votre canapé, commanditez le véhicule de votre choix, quand vous voulez. Ou passez nous voir, c'est possible.</p>
+            <div class="col-lg-4 text-center mb-4">
+                <div class="advantage-box position-relative p-4">
+                    <div class="advantage-icon mb-4">
+                        <i class="fa fa-handshake-o text-gold fa-3x"></i>
+                    </div>
+                    <h3 class="text-uppercase text-gold mb-3">Où, Quand Et Comme Vous Voulez</h3>
+                    <p class="text-light">Bien installé dans votre canapé, commandez votre voiture depuis notre site. Ou appelez-nous. Ou passez en agence. Tout est possible.</p>
                 </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <div class="position-relative">
-                    <h3 class="text-uppercase wow fadeInUp">La Sérénité Absolue</h3>
-                    <p>Nos points de contrôle nous permettent de garantir nos voitures d'occasion ! En, Nos véhicules neuves bénéficient de la garantie constructeur.</p>
+            <div class="col-lg-4 text-center mb-4">
+                <div class="advantage-box position-relative p-4">
+                    <div class="advantage-icon mb-4">
+                        <i class="fa fa-smile-o text-gold fa-3x"></i>
+                    </div>
+                    <h3 class="text-uppercase text-gold mb-3">La Sérénité Absolue</h3>
+                    <p class="text-light">Nos points de contrôle nous permettent de garantir nos voitures d'occasion 1 an. Nos véhicules neufs bénéficient de la garantie constructeur.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+.bg-dark-blue {
+    background-color: #191c3a;
+}
+
+.text-gold {
+    color: #d4af37;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #00a4bd, #00ffbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.advantage-box {
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.advantage-box:hover {
+    transform: translateY(-10px);
+}
+
+.advantage-icon {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
 
 <section id="section-location">
     <div class="container">
