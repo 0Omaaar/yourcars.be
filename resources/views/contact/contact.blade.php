@@ -25,13 +25,16 @@
                 </div>
             </div>
             <div class="row justify-content-center">
+
                 <div class="col-lg-3 col-md-6 text-center mb-4">
                     <div class="contact-box">
-                        <div class="icon-box bg-gradient-primary mx-auto mb-4">
-                            <i class="fa fa-map-marker text-white"></i>
-                        </div>
-                        <h5 class="text-white mb-2">Notre Adresse</h5>
-                        <p class="mb-0">Tervuursesteenweg 27 Bus 4, 1820 Perk</p>
+                        <a href="https://maps.google.com/?q=Tervuursesteenweg+27+Bus+4,+1820+Perk" class="text-decoration-none">
+                            <div class="icon-box bg-gradient-primary mx-auto mb-4">
+                                <i class="fa fa-map-marker text-white"></i>
+                            </div>
+                            <h5 class="text-white mb-2">Notre Adresse</h5>
+                            <p class="mb-0"  style="color: #757575 !important">Tervuursesteenweg 27 Bus 4, 1820 Perk</p>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center mb-4">
