@@ -1,5 +1,4 @@
 @include('navbar.navbar')
-
 <div id="top"></div>
 <section id="de-carousel" class="no-top no-bottom carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->
@@ -19,18 +18,15 @@
                         <div class="row gx-5 align-items-center">
                             <div class="col-lg-6 mb-sm-30">
                                 <h5 class="mb-4 s2"><span class="wow fadeInRight" data-wow-delay=".2s"><i
-                                            class="id-color fa fa-calendar-o"></i>December 3rd to 7th</span><span
+                                            class="id-color fa fa-calendar-o"></i>Membre de FEDERAUTO</span><span
                                         class="wow fadeInRight" data-wow-delay=".2s"><i
-                                            class="id-color fa fa-map-marker"></i>Los Angeles, California</span></h5>
+                                            class="id-color fa fa-map-marker"></i>Belgique</span></h5>
                                 <h1 class="text-uppercase mb-3"><span class="text-gradient wow fadeInRight"
-                                        data-wow-delay="0s">Autovent</span> <span class="wow fadeInRight"
-                                        data-wow-delay=".2s">2023</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">Aute esse non magna elit dolore dolore
-                                    dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat
-                                    qui nisi proident nostrud dolore id do eiusmod. Lorem ipsum non labore.</p>
+                                        data-wow-delay="0s">YourCars</span> <span class="wow fadeInRight"
+                                        data-wow-delay=".2s">2025</span></h1>
+                                <p class="wow fadeInUp" data-wow-delay=".3s">LA VOITURE DE DEMAIN, EST DÉJÀ UNE OCCASION AUJOURD'HUI. Trouvez votre prochaine voiture d'occasion avec notre garantie de qualité.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Get
-                                    Ticket</a>
+                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Découvrir nos voitures</a>
                             </div>
                             <div class="col-lg-6">
                                 <img src="images/misc/car-2.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
@@ -50,18 +46,14 @@
                         <div class="row gx-5 align-items-center">
                             <div class="col-lg-6 mb-sm-30">
                                 <h5 class="mb-4 s2"><span class="wow fadeInRight" data-wow-delay=".2s"><i
-                                            class="id-color fa fa-calendar-o"></i>December 3rd to 7th</span><span
+                                            class="id-color fa fa-calendar-o"></i>Service Premium</span><span
                                         class="wow fadeInRight" data-wow-delay=".2s"><i
-                                            class="id-color fa fa-map-marker"></i>Los Angeles, California</span></h5>
-                                <h1 class="text-uppercase mb-3"><span class="wow fadeInRight" data-wow-delay="0s">The
-                                        Future of</span> <span class="text-gradient wow fadeInRight"
-                                        data-wow-delay=".2s">Automotive</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">Aute esse non magna elit dolore dolore
-                                    dolor sit est. Ea occaecat ea duis laborum reprehenderit id cillum tempor cupidatat
-                                    qui nisi proident nostrud dolore id do eiusmod. Lorem ipsum non labore.</p>
+                                            class="id-color fa fa-map-marker"></i>Tout le territoire belge</span></h5>
+                                <h1 class="text-uppercase mb-3"><span class="wow fadeInRight" data-wow-delay="0s">Le Meilleur</span> <span class="text-gradient wow fadeInRight"
+                                        data-wow-delay=".2s">Prix Garanti</span></h1>
+                                <p class="wow fadeInUp" data-wow-delay=".3s">Achetez au meilleur prix votre voiture neuve ou d'occasion avec YourCars, le spécialiste des véhicules de qualité à prix compétitifs.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Get
-                                    Ticket</a>
+                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Voir les offres</a>
                             </div>
                             <div class="col-lg-6">
                                 <img src="images/misc/car-3.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
@@ -99,15 +91,15 @@
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
-                <span class="d-item-txt">Bentley</span>
+                <span class="d-item-txt">Mercedes</span>
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
-                <span class="d-item-txt">Honda</span>
+                <span class="d-item-txt">Volkswagen</span>
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
-                <span class="d-item-txt">Jeep</span>
+                <span class="d-item-txt">Volvo</span>
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
@@ -115,11 +107,11 @@
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
-                <span class="d-item-txt">Suzuki</span>
+                <span class="d-item-txt">Renault</span>
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
-                <span class="d-item-txt">Range Rover</span>
+                <span class="d-item-txt">Peugeot</span>
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
@@ -133,14 +125,10 @@
 </section>
 
 <section id="section-about" aria-label="section" class="no-bottom">
-
     <div class="container">
         <div class="row">
             <div class="col-lg-12" data-jarallax-element="-50">
-                <p class="lead big wow fadeInUp">Welcome to a world where engineering marvels and artistic design
-                    collide, where innovation takes center stage, and where the passion for automotive excellence is on
-                    full display. Step into the realm of our mesmerizing car exhibition, an immersive journey through
-                    the evolution of automotive technology, style, and performance.
+                <p class="lead big wow fadeInUp">Bienvenue sur yourcars.be. Vous y trouverez chaque jour plus de 40 véhicules, voitures neuves et d'occasion, voitures de collection, de bonnes affaires : quel que soit le type de véhicule recherché, vous le trouverez sur yourcars.be. YourCars.be est un membre de Federauto, qui facilite l'achat d'un véhicule par une simple recherche et en quelques clics, vous pouvez obtenir un aperçu de l'ensemble du marché belge des véhicules d'occasion, gratuitement, rapidement et sans souci.
                 </p>
             </div>
         </div>
@@ -151,10 +139,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 text-center">
-                <h1 class="text-uppercase"><span class="wow fadeInUp">December</span> <span
+                <h1 class="text-uppercase"><span class="wow fadeInUp">YOURCARS</span> <span
                         class="text-gradient wow fadeInUp" data-wow-delay="
-                                .3s">3 -
-                        7</span></h1>
+                                .3s">EST UN MEMBRE DE FEDERAUTO</span></h1>
             </div>
         </div>
 
@@ -168,18 +155,15 @@
             </div>
             <div class="col-lg-6 position-relative" data-jarallax-element="-60">
                 <div class="position-relative z1000">
-                    <h2 class="text-uppercase wow fadeInRight" data-wow-delay=".3s">Welcome to the <span
-                            class="text-line">Biggest</span> <span class="text-gradient">Auto Event</span> 2023</h2>
+                    <h2 class="text-uppercase wow fadeInRight" data-wow-delay=".3s">Pourquoi <span
+                            class="text-line">choisir</span> <span class="text-gradient">YourCars</span> ?</h2>
                     <div class="row">
                         <div class="col-lg-2 col-2">
                             <img src="images/misc/arrow-up-left.png" class="img-fluid" alt=""
                                 data-jarallax-element="30">
                         </div>
                         <div class="col-lg-10 col-10">
-                            <p class="wow fadeInRight" data-wow-delay=".4s">Autovent a celebration of human ingenuity
-                                and a testament to the ever-evolving landscape of transportation. From sleek
-                                aerodynamics to revolutionary sustainable solutions, each exhibit embodies the spirit of
-                                progress that propels the automotive industry forward.</p>
+                            <p class="wow fadeInRight" data-wow-delay=".4s">YourCars est un nom respecté dans le monde de l'automobile. Nous avons débuté comme une petite entreprise familiale et avons grandi à une entreprise prospère d'aujourd'hui avec un stock permanent de dizaines de nouvelles et anciennes voitures. Chez nous, le service est notre priorité et un service personnalisé sont fondamentale. Les voitures sont toujours soigneusement sélectionnées par notre équipe et c'est pour ça que nous vous proposons des véhicules à des très bonnes conditions et à un prix très compétitif.</p>
                         </div>
                     </div>
                 </div>
@@ -195,29 +179,29 @@
         <div class="row text-center">
             <div class="col-md-3 col-sm-6 mb-sm-30 position-relative">
                 <div class="de_count position-absolute top-50 start-50 translate-middle text-light wow fadeInUp">
-                    <h3 class="timer text-gradient" data-to="150" data-speed="3000">0</h3>
-                    <h4 class="text-uppercase">Automotive<br>Brands</h4>
+                    <h3 class="timer text-gradient" data-to="40" data-speed="3000">0</h3>
+                    <h4 class="text-uppercase">Véhicules<br>disponibles</h4>
                 </div>
                 <img src="images/misc/circle-gradient.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 col-sm-6 mb-sm-30 position-relative" data-jarallax-element="-50">
                 <div class="de_count position-absolute top-50 start-50 translate-middle text-light wow fadeInUp">
-                    <h3 class="timer text-line" data-to="32" data-speed="3000">0</h3>
-                    <h4 class="text-uppercase">Countries<br>Participated</h4>
+                    <h3 class="timer text-line" data-to="15" data-speed="3000">0</h3>
+                    <h4 class="text-uppercase">Années<br>d'expérience</h4>
                 </div>
                 <img src="images/misc/circle-gradient-2.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 col-sm-6 mb-sm-30 position-relative">
                 <div class="de_count position-absolute top-50 start-50 translate-middle text-light wow fadeInUp">
                     <h3 class="timer text-gradient" data-to="12" data-speed="3000">0</h3>
-                    <h4 class="text-uppercase">Automotive<br>Figures</h4>
+                    <h4 class="text-uppercase">Marques<br>disponibles</h4>
                 </div>
                 <img src="images/misc/circle-gradient.png" class="img-fluid" alt="">
             </div>
             <div class="col-md-3 col-sm-6 mb-sm-30 position-relative" data-jarallax-element="-50">
                 <div class="de_count position-absolute top-50 start-50 translate-middle text-light wow fadeInUp">
-                    <h3 class="timer text-line" data-to="5" data-speed="3000">0</h3>
-                    <h4 class="text-uppercase">Days<br>Expo</h4>
+                    <h3 class="timer text-line" data-to="100" data-speed="3000">0</h3>
+                    <h4 class="text-uppercase">Clients<br>satisfaits</h4>
                 </div>
                 <img src="images/misc/circle-gradient-2.png" class="img-fluid" alt="">
             </div>
@@ -225,27 +209,23 @@
     </div>
 </section>
 
-
-
 <section id="section-testimonial" class="no-top no-bottom">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 offset-lg-3 text-center">
-                <h2 class="text-uppercase wow fadeInUp"><span class="text-line">What</span> <span
-                        class="text-gradient">They</span> Says</h2>
+                <h2 class="text-uppercase wow fadeInUp"><span class="text-line">Ce que</span> <span
+                        class="text-gradient">disent</span> nos clients</h2>
                 <div class="spacer-single"></div>
             </div>
             <div class="owl-carousel owl-theme wow fadeInUp" id="testimonial-carousel">
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>Attending the automotive event was a dream come true for me. The thrill of seeing rare
-                                and iconic cars up close was unforgettable. From vintage classics to cutting-edge
-                                supercars.
+                            <p>J'ai acheté ma première voiture chez YourCars et je suis très satisfait. Le processus était simple et transparent, et j'ai obtenu un excellent prix pour une voiture de qualité.
                             </p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/1.jpg"> <span>Michael
-                                    S. (Car Enthusiast)</span>
+                                <img alt="" class="rounded-circle" src="images/people/1.jpg"> <span>Thomas D.
+                                    (Client satisfait)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -253,11 +233,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>I can't thank the organizers enough for putting together such an informative automotive
-                                event. The workshops and hands-on demonstrations were incredibly insightful.</p>
+                            <p>Le service client de YourCars est exceptionnel. Ils m'ont guidé tout au long du processus d'achat et ont répondu à toutes mes questions avec patience et expertise.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/2.jpg"> <span>Sarah L.
-                                    (Aspiring Mechanic)</span>
+                                <img alt="" class="rounded-circle" src="images/people/2.jpg"> <span>Marie L.
+                                    (Cliente fidèle)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -265,12 +244,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>What a fantastic family-friendly automotive event! My kids were wide-eyed with excitement
-                                as they explored the various car displays and participated in the interactive
-                                activities.</p>
+                            <p>J'ai vendu ma voiture via YourCars et j'ai été impressionné par leur professionnalisme. Ils ont trouvé un acheteur rapidement et j'ai obtenu un bon prix.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/3.jpg"> <span>Jake M.
-                                    (Family Attendee)</span>
+                                <img alt="" class="rounded-circle" src="images/people/3.jpg"> <span>Pierre M.
+                                    (Vendeur satisfait)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -278,11 +255,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>The fusion of technology and automobiles at this event was mind-blowing. From electric
-                                and autonomous vehicles to cutting-edge infotainment systems.</p>
+                            <p>YourCars offre un excellent rapport qualité-prix. J'ai pu acheter une voiture presque neuve à un prix très compétitif, avec une garantie complète.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/4.jpg"> <span>Amanda P.
-                                    (Tech Enthusiast)</span>
+                                <img alt="" class="rounded-circle" src="images/people/4.jpg"> <span>Sophie P.
+                                    (Cliente satisfaite)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -290,12 +266,11 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>I've attended numerous automotive events, but this one truly exceeded my expectations.
-                                The rare car auctions featured some of the most exquisite automobiles I've ever seen.
+                            <p>C'est ma troisième voiture achetée chez YourCars et je reviens toujours pour leur service exceptionnel et leurs véhicules de qualité. Une valeur sûre!
                             </p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/5.jpg"> <span>Carlos R.
-                                    (Vintage Car Collector)</span>
+                                <img alt="" class="rounded-circle" src="images/people/5.jpg"> <span>Robert R.
+                                    (Client fidèle)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -303,12 +278,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>Attending this automotive event was like stepping into a world of speed and adrenaline.
-                                The track races were heart-pounding, and the skill displayed by the drivers was
-                                awe-inspiring.</p>
+                            <p>YourCars m'a aidé à trouver exactement ce que je cherchais. Leur sélection de véhicules est impressionnante et le personnel est très compétent.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/6.jpg"> <span>Elena B.
-                                    (Racing Enthusiast)</span>
+                                <img alt="" class="rounded-circle" src="images/people/6.jpg"> <span>Isabelle B.
+                                    (Cliente récente)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -316,12 +289,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>I'm restoring a classic car in my garage, and this event was a treasure trove of
-                                restoration tips and resources. The restoration workshops and seminars were incredibly
-                                informative.</p>
+                            <p>Je recommande vivement YourCars à tous ceux qui cherchent une voiture d'occasion fiable. Leur processus de vérification est rigoureux et on peut avoir confiance.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/7.jpg"> <span>Daniel H.
-                                    (Classic Car Hobbyist):</span>
+                                <img alt="" class="rounded-circle" src="images/people/7.jpg"> <span>Marc H.
+                                    (Client satisfait)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -329,11 +300,10 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>Capturing the beauty of automobiles against stunning backdrops was a photographer's dream
-                                come true at this event. The organizers provided designated photography zones.</p>
+                            <p>Le financement proposé par YourCars était beaucoup plus avantageux que ce que ma banque m'offrait. Ils ont vraiment facilité mon achat.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/8.jpg"> <span>Linda G.
-                                    (Photography Enthusiast)</span>
+                                <img alt="" class="rounded-circle" src="images/people/8.jpg"> <span>Julie G.
+                                    (Cliente récente)</span>
                             </div>
                         </blockquote>
                     </div>
@@ -348,7 +318,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="text-uppercase wow fadeInUp">Our <span class="text-gradient">Gallery</span></h2>
+                <h2 class="text-uppercase wow fadeInUp">Notre <span class="text-gradient">Galerie</span></h2>
             </div>
             <div class="spacer-single"></div>
         </div>
@@ -429,29 +399,30 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="text-uppercase wow fadeInUp"><span class="text-line">Our</span> <span
-                        class="text-gradient">Sponsors</span></h2>
+                <h2 class="text-uppercase wow fadeInUp"><span class="text-line">Nos</span> <span
+                        class="text-gradient">avantages</span></h2>
             </div>
             <div class="spacer-single"></div>
         </div>
-        <div class="row g-custom-x">
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-1.png" class="img-deco-1 img-fluid" alt="">
+
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <div class="position-relative">
+                    <h3 class="text-uppercase wow fadeInUp">Le Meilleur Prix Garanti</h3>
+                    <p>Achetez au meilleur prix votre voiture neuve ou d'occasion.</p>
+                </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-2.png" class="img-deco-1 img-fluid" alt="">
+            <div class="col-lg-4 text-center">
+                <div class="position-relative">
+                    <h3 class="text-uppercase wow fadeInUp">Où, Quand Et Comme Vous Voulez</h3>
+                    <p>Bien installé dans votre canapé, commanditez le véhicule de votre choix, quand vous voulez. Ou passez nous voir, c'est possible.</p>
+                </div>
             </div>
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-3.png" class="img-deco-1 img-fluid" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-4.png" class="img-deco-1 img-fluid" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-5.png" class="img-deco-1 img-fluid" alt="">
-            </div>
-            <div class="col-lg-2 col-md-4 col-6 mb-sm-30">
-                <img src="images/sponsors/logo-6.png" class="img-deco-1 img-fluid" alt="">
+            <div class="col-lg-4 text-center">
+                <div class="position-relative">
+                    <h3 class="text-uppercase wow fadeInUp">La Sérénité Absolue</h3>
+                    <p>Nos points de contrôle nous permettent de garantir nos voitures d'occasion ! En, Nos véhicules neuves bénéficient de la garantie constructeur.</p>
+                </div>
             </div>
         </div>
     </div>
@@ -461,33 +432,30 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2 class="text-uppercase wow fadeInUp">Getting <span class="text-gradient">There</span></h2>
+                <h2 class="text-uppercase wow fadeInUp">Où nous <span class="text-gradient">trouver</span></h2>
             </div>
             <div class="spacer-single"></div>
 
             <div class="col-lg-12">
                 <div class="map-container map-fullwidth">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7152203584424!2d-118.2453181849353!3d34.05117548060617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c648d9808fbd%3A0xb79dfbc6ae338c12!2s100%20S%20Main%20St%2C%20Los%20Angeles%2C%20CA%2090012%2C%20USA!5e0!3m2!1sen!2sid!4v1592143290578!5m2!1sen!2sid"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d376.74170791348934!2d4.496963!3d50.956126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e7176d84c21d%3A0x8d823504d1fd7ab6!2sYour%20Cars!5e1!3m2!1sen!2sus!4v1745484975483!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
             <div class="spacer-single"></div>
 
             <div class="col-lg-4 col-md-4 text-center">
-                <p class="lead no-bottom">Location</p>
-                <h4 class="s2">100 S Main ST, Los Angeles, CA</h4>
+                <p class="lead no-bottom">Adresse</p>
+                <h4 class="s2">Rue Belliard 40, 1040 Bruxelles</h4>
 
             </div>
             <div class="col-lg-4 col-md-4 text-center">
-                <p class="lead no-bottom">Phone</p>
-                <h4 class="s2">+1 333 9296</h4>
+                <p class="lead no-bottom">Téléphone</p>
+                <h4 class="s2">+32 2 123 4567</h4>
             </div>
             <div class="col-lg-4 col-md-4 text-center">
                 <p class="lead no-bottom">Email</p>
-                <h4 class="s2">contact@suppport.com</h4>
+                <h4 class="s2">contact@yourcars.be</h4>
             </div>
 
         </div>
@@ -498,7 +466,5 @@
 <!-- content close -->
 <a href="#" id="back-to-top"></a>
 <!-- ` begin -->
-
-
 
 @include('footer.footer')
