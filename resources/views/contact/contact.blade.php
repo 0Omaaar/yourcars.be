@@ -99,7 +99,7 @@
     </style>
     <section class="no-top jarallax">
         <div class="de-gradient-edge-top"></div>
-        <img src="images/background/9.png" class="jarallax-img" alt="">
+        <img src="images/background/21.jpg" class="jarallax-img" alt="">
         <div class="container position-relative z1000">
             <div class="row gx-5">
 
