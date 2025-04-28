@@ -8,7 +8,7 @@
     <section class="vehicles-section">
         <div class="vehicles-header">
             <h2>Véhicules Disponibles</h2>
-            <span>17 Résultats</span>
+            
         </div>
 
         <div class="iframe-wrapper">
