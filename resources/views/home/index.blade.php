@@ -465,7 +465,7 @@
     }
 
     .text-gold {
-        color: #d4af37;
+        color: #0072ff;
     }
 
     .text-gradient {
