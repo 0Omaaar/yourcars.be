@@ -2,11 +2,11 @@
 <html lang="zxx">
 
 <head>
-    <title>Autovent - Car Vehicle Automotive Event Website Template</title>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <title>Your Cars - Bienvenue sur le site de Yourcars</title>
+    <link rel="icon" href="images/logo.webp" sizes="40  x40">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Autovent - Car Vehicle Automotive Event Website Template" name="description">
+    <meta content="Your Cars - Bienvenue sur le site de Yourcars" name="description">
     <meta content="" name="keywords">
     <meta content="" name="author">
     <!-- CSS Files
