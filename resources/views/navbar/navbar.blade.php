@@ -79,6 +79,6 @@
                     <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
                     <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
                 </div>
-                <span><a href="tickets.html">Get Ticket</a></span>
+                <span><a href="#">Suivez-nous</a></span>
             </div>
             <!-- float text close -->
