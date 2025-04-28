@@ -4,9 +4,10 @@
 
             <div class="col-lg-4 text-lg-start text-sm-center">
                 <div class="social-icons">
-                    <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
-                    <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                    <a href="https://www.facebook.com/yourcarsperk/" target="_blank"><i
+                            class="fa fa-facebook fa-lg"></i></a>
+                    <a href="javascript:void(0)"><i class="fa fa-instagram fa-lg"></i></a>
+                    <a href="javascript:void(0)"><i class="fa fa-linkedin fa-lg"></i></a>
                 </div>
             </div>
             <div class="col-lg-4 text-lg-center text-sm-center">

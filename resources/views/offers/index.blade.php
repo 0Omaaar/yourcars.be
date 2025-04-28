@@ -8,17 +8,13 @@
     <section class="vehicles-section">
         <div class="vehicles-header">
             <h2>Véhicules Disponibles</h2>
-            
+
         </div>
 
         <div class="iframe-wrapper">
-            <iframe 
-                id="vehiclesFrame"
+            <iframe id="vehiclesFrame"
                 src="https://professional.autoscout24.be/your-cars-bvba/vehicules?ipc=dealerinfo-home|stocklist&amp;ipl=ourcars#atype=C&amp;cid=8669431&amp;ustate=U,N,A&amp;sort=price&amp;results=20&amp;page=1"
-                frameborder="0"
-                allowfullscreen
-                loading="lazy"
-            ></iframe>
+                frameborder="0" allowfullscreen loading="lazy"></iframe>
         </div>
     </section>
 </div>
@@ -30,29 +26,31 @@
 
 <!-- Style -->
 <style>
-* {
-    --title-font: "Prompt", Helvetica, Arial, sans-serif;
-    --body-font: "Manrope", Helvetica, Arial, sans-serif;
-    --border-default: solid 1px rgba(30, 30, 30, 1);
-    --bg-color-even: #131212;
-    --bg-color-odd: #f5e3e3;
-    --bg-color-dark: #000000;
-    --body-font-color: #000000;
-    --dark-body-font-color: rgba(255, 255, 255, .5);
-}
+    * {
+        --title-font: "Prompt", Helvetica, Arial, sans-serif;
+        --body-font: "Manrope", Helvetica, Arial, sans-serif;
+        --border-default: solid 1px rgba(30, 30, 30, 1);
+        --bg-color-even: #131212;
+        --bg-color-odd: #f5e3e3;
+        --bg-color-dark: #000000;
+        --body-font-color: #000000;
+        --dark-body-font-color: rgba(255, 255, 255, .5);
+    }
 
 
     .vehicles-section {
-    background-color: #0f1014;
-    padding: 25px 20px;
-    margin: 100px auto;
-    max-width: 1200px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-.header.transparent {
-    background: black !important;
-}
+        background-color: #0f1014;
+        padding: 25px 20px;
+        margin: 100px auto;
+        max-width: 1200px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .header.transparent {
+        background: black !important;
+    }
+
     .vehicles-header {
         display: flex;
         justify-content: space-between;
@@ -97,9 +95,11 @@
         .vehicles-header h2 {
             font-size: 18px;
         }
+
         .vehicles-header span {
             font-size: 14px;
         }
+
         .iframe-wrapper iframe {
             height: 600px;
         }
@@ -109,9 +109,11 @@
         .vehicles-header {
             padding: 10px 15px;
         }
+
         .vehicles-header h2 {
             font-size: 16px;
         }
+
         .iframe-wrapper iframe {
             height: 500px;
         }
@@ -122,7 +124,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const iframe = document.getElementById('vehiclesFrame');
-        
+
         iframe.onload = function() {
             try {
                 const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;

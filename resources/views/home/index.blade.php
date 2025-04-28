@@ -24,9 +24,12 @@
                                 <h1 class="text-uppercase mb-3"><span class="text-gradient wow fadeInRight"
                                         data-wow-delay="0s">YourCars</span> <span class="wow fadeInRight"
                                         data-wow-delay=".2s">2025</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">LA VOITURE DE DEMAIN, EST DÉJÀ UNE OCCASION AUJOURD'HUI. Trouvez votre prochaine voiture d'occasion avec notre garantie de qualité.</p>
+                                <p class="wow fadeInUp" data-wow-delay=".3s">LA VOITURE DE DEMAIN, EST DÉJÀ UNE OCCASION
+                                    AUJOURD'HUI. Trouvez votre prochaine voiture d'occasion avec notre garantie de
+                                    qualité.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Découvrir nos voitures</a>
+                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s"
+                                    href="{{ route('offers') }}">Découvrir nos voitures</a>
                             </div>
                             <div class="col-lg-6">
                                 <img src="images/misc/car-2.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
@@ -49,11 +52,15 @@
                                             class="id-color fa fa-calendar-o"></i>Service Premium</span><span
                                         class="wow fadeInRight" data-wow-delay=".2s"><i
                                             class="id-color fa fa-map-marker"></i>Tout le territoire belge</span></h5>
-                                <h1 class="text-uppercase mb-3"><span class="wow fadeInRight" data-wow-delay="0s">Le Meilleur</span> <span class="text-gradient wow fadeInRight"
+                                <h1 class="text-uppercase mb-3"><span class="wow fadeInRight" data-wow-delay="0s">Le
+                                        Meilleur</span> <span class="text-gradient wow fadeInRight"
                                         data-wow-delay=".2s">Prix Garanti</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">Achetez au meilleur prix votre voiture neuve ou d'occasion avec YourCars, le spécialiste des véhicules de qualité à prix compétitifs.</p>
+                                <p class="wow fadeInUp" data-wow-delay=".3s">Achetez au meilleur prix votre voiture
+                                    neuve ou d'occasion avec YourCars, le spécialiste des véhicules de qualité à prix
+                                    compétitifs.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s" href="#">Voir les offres</a>
+                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s"
+                                    href="{{ route('offers') }}">Voir les offres</a>
                             </div>
                             <div class="col-lg-6">
                                 <img src="images/misc/car-3.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
@@ -119,6 +126,22 @@
                 <span class="d-item-display">
                     <i class="d-item-block"></i>
                 </span>
+                <span class="d-item-txt">Skoda</span>
+                <span class="d-item-display">
+                    <i class="d-item-block"></i>
+                </span>
+                <span class="d-item-txt">Land Rover</span>
+                <span class="d-item-display">
+                    <i class="d-item-block"></i>
+                </span>
+                <span class="d-item-txt">Citroen</span>
+                <span class="d-item-display">
+                    <i class="d-item-block"></i>
+                </span>
+                <span class="d-item-txt">Maserati</span>
+                <span class="d-item-display">
+                    <i class="d-item-block"></i>
+                </span>
             </div>
         </div>
     </div>
@@ -128,7 +151,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12" data-jarallax-element="-50">
-                <p class="lead big wow fadeInUp">Bienvenue sur yourcars.be. Vous y trouverez chaque jour plus de 40 véhicules, voitures neuves et d'occasion, voitures de collection, de bonnes affaires : quel que soit le type de véhicule recherché, vous le trouverez sur yourcars.be. YourCars.be est un membre de Federauto, qui facilite l'achat d'un véhicule par une simple recherche et en quelques clics, vous pouvez obtenir un aperçu de l'ensemble du marché belge des véhicules d'occasion, gratuitement, rapidement et sans souci.
+                <p class="lead big wow fadeInUp">Bienvenue sur yourcars.be. Vous y trouverez chaque jour plus de 40
+                    véhicules, voitures neuves et d'occasion, voitures de collection, de bonnes affaires : quel que soit
+                    le type de véhicule recherché, vous le trouverez sur yourcars.be. YourCars.be est un membre de
+                    Federauto, qui facilite l'achat d'un véhicule par une simple recherche et en quelques clics, vous
+                    pouvez obtenir un aperçu de l'ensemble du marché belge des véhicules d'occasion, gratuitement,
+                    rapidement et sans souci.
                 </p>
             </div>
         </div>
@@ -141,7 +169,8 @@
             <div class="col-lg-8 offset-lg-2 text-center">
                 <h1 class="text-uppercase"><span class="wow fadeInUp">YOURCARS</span> <span
                         class="text-gradient wow fadeInUp" data-wow-delay="
-                                .3s">EST UN MEMBRE DE FEDERAUTO</span></h1>
+                                .3s">EST
+                        UN MEMBRE DE FEDERAUTO</span></h1>
             </div>
         </div>
 
@@ -163,7 +192,13 @@
                                 data-jarallax-element="30">
                         </div>
                         <div class="col-lg-10 col-10">
-                            <p class="wow fadeInRight" data-wow-delay=".4s">YourCars est un nom respecté dans le monde de l'automobile. Nous avons débuté comme une petite entreprise familiale et avons grandi à une entreprise prospère d'aujourd'hui avec un stock permanent de dizaines de nouvelles et anciennes voitures. Chez nous, le service est notre priorité et un service personnalisé sont fondamentale. Les voitures sont toujours soigneusement sélectionnées par notre équipe et c'est pour ça que nous vous proposons des véhicules à des très bonnes conditions et à un prix très compétitif.</p>
+                            <p class="wow fadeInRight" data-wow-delay=".4s">YourCars est un nom respecté dans le monde
+                                de l'automobile. Nous avons débuté comme une petite entreprise familiale et avons grandi
+                                à une entreprise prospère d'aujourd'hui avec un stock permanent de dizaines de nouvelles
+                                et anciennes voitures. Chez nous, le service est notre priorité et un service
+                                personnalisé sont fondamentale. Les voitures sont toujours soigneusement sélectionnées
+                                par notre équipe et c'est pour ça que nous vous proposons des véhicules à des très
+                                bonnes conditions et à un prix très compétitif.</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +256,9 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>J'ai acheté ma première voiture chez YourCars et je suis très satisfait. Le processus était simple et transparent, et j'ai obtenu un excellent prix pour une voiture de qualité.
+                            <p>J'ai acheté ma première voiture chez YourCars et je suis très satisfait. Le processus
+                                était simple et transparent, et j'ai obtenu un excellent prix pour une voiture de
+                                qualité.
                             </p>
                             <div class="de_testi_by">
                                 <img alt="" class="rounded-circle" src="images/people/1.jpg"> <span>Thomas D.
@@ -233,7 +270,8 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>Le service client de YourCars est exceptionnel. Ils m'ont guidé tout au long du processus d'achat et ont répondu à toutes mes questions avec patience et expertise.</p>
+                            <p>Le service client de YourCars est exceptionnel. Ils m'ont guidé tout au long du processus
+                                d'achat et ont répondu à toutes mes questions avec patience et expertise.</p>
                             <div class="de_testi_by">
                                 <img alt="" class="rounded-circle" src="images/people/2.jpg"> <span>Marie L.
                                     (Cliente fidèle)</span>
@@ -244,7 +282,8 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>J'ai vendu ma voiture via YourCars et j'ai été impressionné par leur professionnalisme. Ils ont trouvé un acheteur rapidement et j'ai obtenu un bon prix.</p>
+                            <p>J'ai vendu ma voiture via YourCars et j'ai été impressionné par leur professionnalisme.
+                                Ils ont trouvé un acheteur rapidement et j'ai obtenu un bon prix.</p>
                             <div class="de_testi_by">
                                 <img alt="" class="rounded-circle" src="images/people/3.jpg"> <span>Pierre M.
                                     (Vendeur satisfait)</span>
@@ -255,7 +294,8 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>C'est ma troisième voiture achetée chez YourCars et je reviens toujours pour leur service exceptionnel et leurs véhicules de qualité. Une valeur sûre!
+                            <p>C'est ma troisième voiture achetée chez YourCars et je reviens toujours pour leur service
+                                exceptionnel et leurs véhicules de qualité. Une valeur sûre!
                             </p>
                             <div class="de_testi_by">
                                 <img alt="" class="rounded-circle" src="images/people/5.jpg"> <span>Robert R.
@@ -267,9 +307,11 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>YourCars m'a aidé à trouver exactement ce que je cherchais. Leur sélection de véhicules est impressionnante et le personnel est très compétent.</p>
+                            <p>YourCars m'a aidé à trouver exactement ce que je cherchais. Leur sélection de véhicules
+                                est impressionnante et le personnel est très compétent.</p>
                             <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/6.jpg"> <span>Isabelle B.
+                                <img alt="" class="rounded-circle" src="images/people/6.jpg"> <span>Isabelle
+                                    B.
                                     (Cliente récente)</span>
                             </div>
                         </blockquote>
@@ -278,7 +320,8 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>Je recommande vivement YourCars à tous ceux qui cherchent une voiture d'occasion fiable. Leur processus de vérification est rigoureux et on peut avoir confiance.</p>
+                            <p>Je recommande vivement YourCars à tous ceux qui cherchent une voiture d'occasion fiable.
+                                Leur processus de vérification est rigoureux et on peut avoir confiance.</p>
                             <div class="de_testi_by">
                                 <img alt="" class="rounded-circle" src="images/people/7.jpg"> <span>Marc H.
                                     (Client satisfait)</span>
@@ -377,7 +420,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb-5">
-                <h2 class="text-uppercase wow fadeInUp"><span class="text-white">NOS</span> <span class="text-gradient">AVANTAGES</span></h2>
+                <h2 class="text-uppercase wow fadeInUp"><span class="text-white">NOS</span> <span
+                        class="text-gradient">AVANTAGES</span></h2>
             </div>
         </div>
 
@@ -397,7 +441,8 @@
                         <i class="fa fa-handshake-o text-gold fa-3x"></i>
                     </div>
                     <h3 class="text-uppercase text-gold mb-3">Où, Quand Et Comme Vous Voulez</h3>
-                    <p class="text-light">Bien installé dans votre canapé, commandez votre voiture depuis notre site. Ou appelez-nous. Ou passez en agence. Tout est possible.</p>
+                    <p class="text-light">Bien installé dans votre canapé, commandez votre voiture depuis notre site.
+                        Ou appelez-nous. Ou passez en agence. Tout est possible.</p>
                 </div>
             </div>
             <div class="col-lg-4 text-center mb-4">
@@ -406,7 +451,8 @@
                         <i class="fa fa-smile-o text-gold fa-3x"></i>
                     </div>
                     <h3 class="text-uppercase text-gold mb-3">La Sérénité Absolue</h3>
-                    <p class="text-light">Nos points de contrôle nous permettent de garantir nos voitures d'occasion 1 an. Nos véhicules neufs bénéficient de la garantie constructeur.</p>
+                    <p class="text-light">Nos points de contrôle nous permettent de garantir nos voitures d'occasion 1
+                        an. Nos véhicules neufs bénéficient de la garantie constructeur.</p>
                 </div>
             </div>
         </div>
@@ -414,36 +460,36 @@
 </section>
 
 <style>
-.bg-dark-blue {
-    background-color: #191c3a;
-}
+    .bg-dark-blue {
+        background-color: #191c3a;
+    }
 
-.text-gold {
-    color: #d4af37;
-}
+    .text-gold {
+        color: #d4af37;
+    }
 
-.text-gradient {
-    background: linear-gradient(to right, #00a4bd, #00ffbd);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-}
+    .text-gradient {
+        background: linear-gradient(to right, #00a4bd, #00ffbd);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
 
-.advantage-box {
-    transition: transform 0.3s ease;
-    border-radius: 8px;
-}
+    .advantage-box {
+        transition: transform 0.3s ease;
+        border-radius: 8px;
+    }
 
-.advantage-box:hover {
-    transform: translateY(-10px);
-}
+    .advantage-box:hover {
+        transform: translateY(-10px);
+    }
 
-.advantage-icon {
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .advantage-icon {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 </style>
 
 <section id="section-location">
@@ -456,7 +502,10 @@
 
             <div class="col-lg-12">
                 <div class="map-container map-fullwidth">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d376.74170791348934!2d4.496963!3d50.956126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e7176d84c21d%3A0x8d823504d1fd7ab6!2sYour%20Cars!5e1!3m2!1sen!2sus!4v1745484975483!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d376.74170791348934!2d4.496963!3d50.956126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e7176d84c21d%3A0x8d823504d1fd7ab6!2sYour%20Cars!5e1!3m2!1sen!2sus!4v1745484975483!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

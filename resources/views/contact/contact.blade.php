@@ -211,12 +211,20 @@
                 <div class="col-lg-12 text-center">
                     <h3>Vous serez toujours le bienvenu dans notre salle d’exposition</h3>
                     <div class="spacer-20"></div>
+                    <div class="col-lg-12">
+                        <div class="map-container map-fullwidth">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d376.74170791348934!2d4.496963!3d50.956126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e7176d84c21d%3A0x8d823504d1fd7ab6!2sYour%20Cars!5e1!3m2!1sen!2sus!4v1745484975483!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="spacer-20"></div>
                     <div class="social-icons big">
-                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
-                        <a href="#"><i class="fa fa-rss fa-lg"></i></a>
+                        <a href="https://www.facebook.com/yourcarsperk/" target="_blank"><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a href="javascript:void(0)"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="javascript:void(0)"><i class="fa fa-instagram fa-lg"></i></a>
                     </div>
                 </div>
             </div>
