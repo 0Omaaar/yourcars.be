@@ -18,6 +18,30 @@
     <link href="css/coloring.css" rel="stylesheet" type="text/css">
     <!-- color scheme -->
     <link id="colors" href="css/colors/blue-teal.css" rel="stylesheet" type="text/css">
+
+
+    {{-- toaster notifications --}}
+    {{-- <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script> --}}
+
+    {{-- <script>
+        Configure Toastr
+        toastr.options = {
+            "closeButton": true,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+    </script> --}}
+
 </head>
 
 <body class="dark-scheme">
@@ -73,12 +97,12 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <!-- float text begin -->
-            <div class="float-text">
+            {{-- <div class="float-text">
                 <div class="de_social-icons">
                     <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                     <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
                     <a href="#"><i class="fa fa-instagram fa-lg"></i></a>
                 </div>
                 <span><a href="#">Suivez-nous</a></span>
-            </div>
+            </div> --}}
             <!-- float text close -->
