@@ -52,9 +52,10 @@
                                     <li><a class="menu-item" href="{{ route('home') }}#section-hero">Accueil</a></li>
                                     <li><a class="menu-item" href="{{ route('home') }}#section-about">À Propos</a></li>
                                     <li><a class="menu-item" href="{{ route('home') }}#section-gallery">Gallery</a></li>
+
+                                    <li><a class="menu-item" href="{{ route('offers') }}">Offres</a></li>
                                     <li><a class="menu-item" href="{{ route('home') }}#section-location">Contact</a>
                                     </li>
-                                    <li><a class="menu-item" href="{{ route('offers') }}">Offres</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">

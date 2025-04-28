@@ -255,17 +255,6 @@
                 <div class="item">
                     <div class="de_testi type-2">
                         <blockquote>
-                            <p>YourCars offre un excellent rapport qualité-prix. J'ai pu acheter une voiture presque neuve à un prix très compétitif, avec une garantie complète.</p>
-                            <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/4.jpg"> <span>Sophie P.
-                                    (Cliente satisfaite)</span>
-                            </div>
-                        </blockquote>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="de_testi type-2">
-                        <blockquote>
                             <p>C'est ma troisième voiture achetée chez YourCars et je reviens toujours pour leur service exceptionnel et leurs véhicules de qualité. Une valeur sûre!
                             </p>
                             <div class="de_testi_by">
@@ -297,17 +286,6 @@
                         </blockquote>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="de_testi type-2">
-                        <blockquote>
-                            <p>Le financement proposé par YourCars était beaucoup plus avantageux que ce que ma banque m'offrait. Ils ont vraiment facilité mon achat.</p>
-                            <div class="de_testi_by">
-                                <img alt="" class="rounded-circle" src="images/people/8.jpg"> <span>Julie G.
-                                    (Cliente récente)</span>
-                            </div>
-                        </blockquote>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -335,7 +313,7 @@
                             <img src="images/gallery/2.jpg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/3.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery/1.webp" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
                             <img src="images/gallery/4.jpg" class="d-block w-100" alt="">
@@ -373,7 +351,7 @@
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
                             aria-label="Slide 3" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/3.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery/1.webp" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="3"
                             aria-label="Slide 4" style="width: 100px;">
