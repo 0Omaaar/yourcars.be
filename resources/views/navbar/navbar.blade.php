@@ -16,6 +16,7 @@
     <link href="css/plugins.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/coloring.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <!-- color scheme -->
     <link id="colors" href="css/colors/blue-teal.css" rel="stylesheet" type="text/css">
 
@@ -75,7 +76,7 @@
                                 <ul id="mainmenu">
                                     <li><a class="menu-item" href="{{ route('home') }}#section-hero">Accueil</a></li>
                                     <li><a class="menu-item" href="{{ route('home') }}#section-about">À Propos</a></li>
-                                    <li><a class="menu-item" href="{{ route('home') }}#section-gallery">Gallery</a></li>
+                                    <li><a class="menu-item" href="{{ route('home') }}#section-gallery">Galerie</a></li>
 
                                     <li><a class="menu-item" href="{{ route('offers') }}">Offres</a></li>
                                     <li><a class="menu-item" href="{{ route('home') }}#section-location">Contact</a>

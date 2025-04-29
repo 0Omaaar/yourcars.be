@@ -12,6 +12,9 @@ Route::get('/offers', function () {
 Route::get('/contact', function () {
     return view('contact.contact');
 })->name('contact');
+Route::get('/gallery', function () {
+    return view('gallery.gallery');
+})->name('gallery');
 
 
 Route::post('/contact', [ContactController::class, 'contact'])->name('contact.store');

@@ -1,0 +1,80 @@
+@media (max-width: 320px) {
+    .no-bottom.no-top{
+        margin-top: 36% !important;
+    }
+
+    .first_section_hero{
+        margin-top: 37%;
+    }
+
+    .cars_section_1_hero{
+        margin-top: -17%;
+    }
+
+    .btn_first_section_hero{
+        font-size: 15px !important;
+    }
+
+    .container_first_section_hero{
+        margin-top: -29% !important;
+    }
+
+    .about_second_section{
+        margin-top: -35%;
+    }
+
+    .dots_section{
+        display: none;
+    }
+
+    .title_about_us_section{
+        font-size: 258%;
+    }
+
+    .about_us_section_img_background{
+        display: none;
+    }
+
+    .testiomonial_responsive_mobile_small{
+        margin-top: -36% !important;
+    }
+
+    .btn_voir_plus{
+        margin-left: 28% !important;
+    }
+
+    .footer_container_responsive{
+        margin-left: 10%;
+    }
+
+    .logo_footer_img_responsive{
+        margin-left: -7%;
+    }
+
+    .footer_section_media_responsive{
+        margin-left: 11%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn_voir_plus{
+        margin-left: 35% !important;
+    }
+
+    .footer_container_responsive{
+        margin-left: 20%;
+    }
+
+    .logo_footer_img_responsive{
+        margin-left: -7%;
+    }
+
+    .footer_section_media_responsive{
+        margin-left: 11%;
+    }
+
+    .dots_section{
+        display: none;
+    }
+  }
+

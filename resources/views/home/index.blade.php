@@ -15,8 +15,8 @@
             <div class="mask">
                 <div class="h-100 v-center">
                     <div class="container">
-                        <div class="row gx-5 align-items-center">
-                            <div class="col-lg-6 mb-sm-30">
+                        <div class="row gx-5 align-items-center container_first_section_hero">
+                            <div class="col-lg-6 mb-sm-30 first_section_hero">
                                 <h5 class="mb-4 s2"><span class="wow fadeInRight" data-wow-delay=".2s"><i
                                             class="id-color fa fa-calendar-o"></i>Membre de FEDERAUTO</span><span
                                         class="wow fadeInRight" data-wow-delay=".2s"><i
@@ -28,10 +28,10 @@
                                     AUJOURD'HUI. Trouvez votre prochaine voiture d'occasion avec notre garantie de
                                     qualité.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s"
+                                <a class="btn-main big mb10 wow fadeInUp btn_first_section_hero" data-wow-delay=".6s"
                                     href="{{ route('offers') }}">Découvrir nos voitures</a>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 cars_section_1_hero">
                                 <img src="images/misc/car-2.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
                             </div>
                         </div>
@@ -46,8 +46,8 @@
             <div class="mask">
                 <div class="h-100 v-center">
                     <div class="container">
-                        <div class="row gx-5 align-items-center">
-                            <div class="col-lg-6 mb-sm-30">
+                        <div class="row gx-5 align-items-center container_first_section_hero">
+                            <div class="col-lg-6 mb-sm-30 first_section_hero">
                                 <h5 class="mb-4 s2"><span class="wow fadeInRight" data-wow-delay=".2s"><i
                                             class="id-color fa fa-calendar-o"></i>Service Premium</span><span
                                         class="wow fadeInRight" data-wow-delay=".2s"><i
@@ -59,10 +59,10 @@
                                     neuve ou d'occasion avec YourCars, le spécialiste des véhicules de qualité à prix
                                     compétitifs.</p>
                                 <div class="spacer-10"></div>
-                                <a class="btn-main big mb10 wow fadeInUp" data-wow-delay=".6s"
+                                <a class="btn-main big mb10 wow fadeInUp btn_first_section_hero" data-wow-delay=".6s"
                                     href="{{ route('offers') }}">Voir les offres</a>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 cars_section_1_hero">
                                 <img src="images/misc/car-3.png" class="wow zoomIn" data-wow-delay=".6s" alt="">
                             </div>
                         </div>
@@ -148,7 +148,7 @@
 </section>
 
 <section id="section-about" aria-label="section" class="no-bottom">
-    <div class="container">
+    <div class="container about_second_section">
         <div class="row">
             <div class="col-lg-12" data-jarallax-element="-50">
                 <p class="lead big wow fadeInUp">Bienvenue sur yourcars.be. Vous y trouverez chaque jour plus de 40
@@ -178,13 +178,13 @@
             <div class="col-lg-6 position-relative">
                 <div class="images-deco-1">
                     <img src="images/misc/car-1.jpg" class="d-img-1" alt="">
-                    <img src="images/misc/dotted.png" class="d-img-2" alt="" data-jarallax-element="40">
+                    <img src="images/misc/dotted.png" class="d-img-2 dots_section" alt="" data-jarallax-element="40">
                     <div class="d-img-3 bg-color"></div>
                 </div>
             </div>
             <div class="col-lg-6 position-relative" data-jarallax-element="-60">
                 <div class="position-relative z1000">
-                    <h2 class="text-uppercase wow fadeInRight" data-wow-delay=".3s">Pourquoi <span
+                    <h2 class="text-uppercase wow fadeInRight title_about_us_section" data-wow-delay=".3s">Pourquoi <span
                             class="text-line">choisir</span> <span class="text-gradient">YourCars</span> ?</h2>
                     <div class="row">
                         <div class="col-lg-2 col-2">
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="images/misc/circle-gradient.png" class="position-absolute top-50 start-50 translate-middle"
+                <img src="images/misc/circle-gradient.png" class="position-absolute top-50 start-50 translate-middle about_us_section_img_background"
                     alt="">
             </div>
         </div>
@@ -245,7 +245,7 @@
 </section>
 
 <section id="section-testimonial" class="no-top no-bottom">
-    <div class="container-fluid">
+    <div class="container-fluid testiomonial_responsive_mobile_small">
         <div class="row">
             <div class="col-lg-6 offset-lg-3 text-center">
                 <h2 class="text-uppercase wow fadeInUp"><span class="text-line">Ce que</span> <span
@@ -350,22 +350,22 @@
                     <!-- Slides -->
                     <div class="carousel-inner mb-5">
                         <div class="carousel-item active">
-                            <img src="images/gallery/1.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/5.jpeg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/2.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/4.jpeg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/1.webp" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/11.jpeg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/4.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/9.jpeg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/5.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/12.jpeg" class="d-block w-100" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/gallery/6.jpg" class="d-block w-100" alt="">
+                            <img src="images/gallery_real/8.jpeg" class="d-block w-100" alt="">
                         </div>
 
                     </div>
@@ -386,34 +386,40 @@
                     <div class="carousel-indicators" style="margin-bottom: -20px;">
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="0"
                             class="active" aria-current="true" aria-label="Slide 1" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/1.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/5.jpeg" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="1"
                             aria-label="Slide 2" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/2.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/4.jpeg" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="2"
                             aria-label="Slide 3" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/1.webp" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/11.jpeg" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="3"
                             aria-label="Slide 4" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/4.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/9.jpeg" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="4"
                             aria-label="Slide 5" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/5.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/12.jpeg" alt="">
                         </button>
                         <button type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide-to="5"
                             aria-label="Slide 6" style="width: 100px;">
-                            <img class="d-block w-100 img-fluid" src="images/gallery/6.jpg" alt="">
+                            <img class="d-block w-100 img-fluid" src="images/gallery_real/8.jpeg" alt="">
                         </button>
                     </div>
                     <!-- Thumbnails -->
                 </div>
+
             </div>
+
+        </div>
+        <div  style="margin-top: 6%">
+            <a href="{{ route('gallery') }}" target="_blank" class="btn-line btn_voir_plus" style="margin-left: 46%;">Voir Plus</a>
         </div>
     </div>
+
 </section>
 
 <section class="pt60 pb60 bg-dark-blue">

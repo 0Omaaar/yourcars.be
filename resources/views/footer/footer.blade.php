@@ -1,8 +1,8 @@
 <footer>
     <div class="container">
-        <div class="row g-4">
+        <div class="row g-4 footer_container_responsive">
 
-            <div class="col-lg-4 text-lg-start text-sm-center">
+            <div class="col-lg-4 text-lg-start text-sm-center footer_section_media_responsive">
                 <div class="social-icons">
                     <a href="https://www.facebook.com/yourcarsperk/" target="_blank"><i
                             class="fa fa-facebook fa-lg"></i></a>
@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="col-lg-4 text-lg-center text-sm-center">
-                <img src="images/logo.webp" width="230" height="70" style="margin-top: -5%;" class=""
+                <img src="images/logo.webp" width="230" height="70" style="margin-top: -5%;" class="logo_footer_img_responsive"
                     alt="">
             </div>
             <div class="col-lg-4 text-lg-end text-sm-center">
