@@ -76,5 +76,21 @@
     .dots_section{
         display: none;
     }
+
+    p.lead.big{
+        font-size: 24px !important;
+    }
+
+    .text_to_big{
+        font-size: 120%;
+        color: white;
+    }
+
+    .contact_navbar_btn{
+        /* display: none !important; */
+        margin-right: 17%;
+        width: 92%;
+        font-size: 11px;
+    }
   }
 

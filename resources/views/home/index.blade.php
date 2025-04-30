@@ -192,7 +192,7 @@
                                 data-jarallax-element="30">
                         </div>
                         <div class="col-lg-10 col-10">
-                            <p class="wow fadeInRight" data-wow-delay=".4s">YourCars est un nom respecté dans le monde
+                            <p class="wow fadeInRight text_to_big" data-wow-delay=".4s">YourCars est un nom respecté dans le monde
                                 de l'automobile. Nous avons débuté comme une petite entreprise familiale et avons grandi
                                 à une entreprise prospère d'aujourd'hui avec un stock permanent de dizaines de nouvelles
                                 et anciennes voitures. Chez nous, le service est notre priorité et un service
