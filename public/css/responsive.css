@@ -1,96 +1,99 @@
 @media (max-width: 320px) {
-    .no-bottom.no-top{
+    .no-bottom.no-top {
         margin-top: 36% !important;
     }
 
-    .first_section_hero{
+    .first_section_hero {
         margin-top: 37%;
     }
 
-    .cars_section_1_hero{
+    .cars_section_1_hero {
         margin-top: -17%;
     }
 
-    .btn_first_section_hero{
+    .btn_first_section_hero {
         font-size: 15px !important;
     }
 
-    .container_first_section_hero{
+    .container_first_section_hero {
         margin-top: -29% !important;
     }
 
-    .about_second_section{
+    .about_second_section {
         margin-top: -35%;
     }
 
-    .dots_section{
+    .dots_section {
         display: none;
     }
 
-    .title_about_us_section{
+    .title_about_us_section {
         font-size: 258%;
     }
 
-    .about_us_section_img_background{
+    .about_us_section_img_background {
         display: none;
     }
 
-    .testiomonial_responsive_mobile_small{
+    .testiomonial_responsive_mobile_small {
         margin-top: -36% !important;
     }
 
-    .btn_voir_plus{
+    .btn_voir_plus {
         margin-left: 28% !important;
     }
 
-    .footer_container_responsive{
+    .footer_container_responsive {
         margin-left: 10%;
     }
 
-    .logo_footer_img_responsive{
+    .logo_footer_img_responsive {
         margin-left: -7%;
     }
 
-    .footer_section_media_responsive{
+    .footer_section_media_responsive {
         margin-left: 11%;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .btn_voir_plus{
+    .btn_voir_plus {
         margin-left: 35% !important;
     }
 
-    .footer_container_responsive{
+    .footer_container_responsive {
         margin-left: 20%;
     }
 
-    .logo_footer_img_responsive{
+    .logo_footer_img_responsive {
         margin-left: -7%;
     }
 
-    .footer_section_media_responsive{
+    .footer_section_media_responsive {
         margin-left: 11%;
     }
 
-    .dots_section{
+    .dots_section {
         display: none;
     }
 
-    p.lead.big{
+    p.lead.big {
         font-size: 24px !important;
     }
 
-    .text_to_big{
+    .text_to_big {
         font-size: 120%;
         color: white;
     }
 
-    .contact_navbar_btn{
-        /* display: none !important; */
+    .contact_navbar_btn {
+        display: none !important;
         margin-right: 17%;
         width: 92%;
         font-size: 11px;
     }
-  }
 
+    .h-100.v-center {
+        margin-top: 14%;
+    }
+}

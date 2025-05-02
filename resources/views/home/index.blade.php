@@ -24,7 +24,8 @@
                                 <h1 class="text-uppercase mb-3"><span class="text-gradient wow fadeInRight"
                                         data-wow-delay="0s">YourCars</span> <span class="wow fadeInRight"
                                         data-wow-delay=".2s">2025</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">LA VOITURE DE DEMAIN, EST DÉJÀ UNE OCCASION
+                                <p class="wow fadeInUp" data-wow-delay=".3s" style="color: white">LA VOITURE DE DEMAIN,
+                                    EST DÉJÀ UNE OCCASION
                                     AUJOURD'HUI. Trouvez votre prochaine voiture d'occasion avec notre garantie de
                                     qualité.</p>
                                 <div class="spacer-10"></div>
@@ -55,7 +56,8 @@
                                 <h1 class="text-uppercase mb-3"><span class="wow fadeInRight" data-wow-delay="0s">Le
                                         Meilleur</span> <span class="text-gradient wow fadeInRight"
                                         data-wow-delay=".2s">Prix Garanti</span></h1>
-                                <p class="wow fadeInUp" data-wow-delay=".3s">Achetez au meilleur prix votre voiture
+                                <p class="wow fadeInUp" data-wow-delay=".3s" style="color: white">Achetez au meilleur
+                                    prix votre voiture
                                     neuve ou d'occasion avec YourCars, le spécialiste des véhicules de qualité à prix
                                     compétitifs.</p>
                                 <div class="spacer-10"></div>
@@ -178,21 +180,24 @@
             <div class="col-lg-6 position-relative">
                 <div class="images-deco-1">
                     <img src="images/misc/car-1.jpg" class="d-img-1" alt="">
-                    <img src="images/misc/dotted.png" class="d-img-2 dots_section" alt="" data-jarallax-element="40">
+                    <img src="images/misc/dotted.png" class="d-img-2 dots_section" alt=""
+                        data-jarallax-element="40">
                     <div class="d-img-3 bg-color"></div>
                 </div>
             </div>
             <div class="col-lg-6 position-relative" data-jarallax-element="-60">
                 <div class="position-relative z1000">
-                    <h2 class="text-uppercase wow fadeInRight title_about_us_section" data-wow-delay=".3s">Pourquoi <span
-                            class="text-line">choisir</span> <span class="text-gradient">YourCars</span> ?</h2>
+                    <h2 class="text-uppercase wow fadeInRight title_about_us_section" data-wow-delay=".3s">Pourquoi
+                        <span class="text-line">choisir</span> <span class="text-gradient">YourCars</span> ?
+                    </h2>
                     <div class="row">
                         <div class="col-lg-2 col-2">
                             <img src="images/misc/arrow-up-left.png" class="img-fluid" alt=""
                                 data-jarallax-element="30">
                         </div>
                         <div class="col-lg-10 col-10">
-                            <p class="wow fadeInRight text_to_big" data-wow-delay=".4s">YourCars est un nom respecté dans le monde
+                            <p class="wow fadeInRight text_to_big" data-wow-delay=".4s" style="color: white">YourCars
+                                est un nom respecté dans le monde
                                 de l'automobile. Nous avons débuté comme une petite entreprise familiale et avons grandi
                                 à une entreprise prospère d'aujourd'hui avec un stock permanent de dizaines de nouvelles
                                 et anciennes voitures. Chez nous, le service est notre priorité et un service
@@ -202,7 +207,8 @@
                         </div>
                     </div>
                 </div>
-                <img src="images/misc/circle-gradient.png" class="position-absolute top-50 start-50 translate-middle about_us_section_img_background"
+                <img src="images/misc/circle-gradient.png"
+                    class="position-absolute top-50 start-50 translate-middle about_us_section_img_background"
                     alt="">
             </div>
         </div>
@@ -415,8 +421,9 @@
             </div>
 
         </div>
-        <div  style="margin-top: 6%">
-            <a href="{{ route('gallery') }}" target="_blank" class="btn-line btn_voir_plus" style="margin-left: 46%;">Voir Plus</a>
+        <div style="margin-top: 6%">
+            <a href="{{ route('gallery') }}" target="_blank" class="btn-line btn_voir_plus"
+                style="margin-left: 46%;">Voir Plus</a>
         </div>
     </div>
 
