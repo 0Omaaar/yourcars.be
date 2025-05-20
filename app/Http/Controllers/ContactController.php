@@ -21,7 +21,7 @@ class ContactController extends Controller
                 'message' => 'required|string',
             ]);
 
-            Mail::to("omar.elkhotri@uit.ac.ma")->queue(new ContactFormMail($validated));
+            Mail::to("info@yourcars.be")->queue(new ContactFormMail($validated));
 
             return redirect()->back()->with('success', 'Votre message a été envoyé avec succès!');
         } catch (\Exception $e) {
