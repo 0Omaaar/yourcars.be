@@ -3,7 +3,7 @@
 <style>
     @media (max-width: 768px) {
         .container_first_section_hero {
-            margin-top: 14% !important;
+            margin-top: 25% !important;
         }
     }
 </style>
