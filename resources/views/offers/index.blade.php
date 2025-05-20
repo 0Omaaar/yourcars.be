@@ -1,5 +1,16 @@
 @include('navbar.navbar')
 
+<style>
+    @media (max-width: 768px) {
+          .vehicles-header{
+            margin-top: -48% !important;
+          }
+          #vehiclesFrame{
+            height: 650px; !important;
+          }
+    }
+</style>
+
 <!-- Content Begin -->
 <div class="no-bottom no-top" id="content">
     <div id="top"></div>

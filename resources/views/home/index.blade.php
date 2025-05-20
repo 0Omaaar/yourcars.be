@@ -1,4 +1,12 @@
 @include('navbar.navbar')
+
+<style>
+    @media (max-width: 768px) {
+        .container_first_section_hero {
+            margin-top: 14% !important;
+        }
+    }
+</style>
 <div id="top"></div>
 <section id="de-carousel" class="no-top no-bottom carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->

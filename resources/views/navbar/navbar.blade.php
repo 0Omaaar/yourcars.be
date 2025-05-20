@@ -43,6 +43,24 @@
         };
     </script> --}}
 
+    <style>
+        .mobile-only {
+            display: none !important;
+        }
+
+        @media (max-width: 768px) {
+            .desktop-only {
+                display: none !important;
+            }
+            .mobile-only {
+                display: block !important;
+            }
+            .to-hide-mobile {
+                display: none !important;
+            }
+        }
+    </style>
+
 </head>
 
 <body class="dark-scheme">
@@ -74,12 +92,17 @@
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="{{ route('home') }}#section-hero">Accueil</a></li>
-                                    <li><a class="menu-item" href="{{ route('home') }}#section-about">À Propos</a></li>
-                                    <li><a class="menu-item" href="{{ route('home') }}#section-gallery">Galerie</a></li>
+                                    <li><a class="menu-item" href="{{ route('home') }}">Accueil</a></li>
+                                    <li class="to-hide-mobile"><a class="menu-item" href="{{ route('home') }}#section-about">À Propos</a></li>
+                                    <li class="to-hide-mobile"><a class="menu-item" href="{{ route('home') }}#section-gallery">Galerie</a></li>
 
                                     <li><a class="menu-item" href="{{ route('offers') }}">Offres</a></li>
-                                    <li><a class="menu-item" href="{{ route('home') }}#section-location">Contact</a>
+
+                                    <li class="desktop-only"><a class="menu-item" href="{{ route('home') }}#section-location">Contact</a>
+
+                                    <li class="mobile-only"><a class="menu-item" href="{{ route('contact') }}">Contact</a>
+
+
                                     </li>
                                 </ul>
                             </div>
